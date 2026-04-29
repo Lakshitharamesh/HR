@@ -53,7 +53,7 @@ function App() {
         <div className="nav-links">
           <a href="#about">Home</a>
           <a href="#skills">Skills</a>
-          <a href="#projects">Portfolio</a>
+          <a href="#projects">Project</a>
           <button className="contact-btn" onClick={() => window.location.href = `mailto:${resume.contact.email}`}>
             Contact Me
           </button>
