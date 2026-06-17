@@ -1,10 +1,9 @@
-// apiConnection.js
+
 
 export const registerAndFetchNotifications = async () => {
   try {
-    const token = ''; // <-- PASTE YOUR POSTMAN TOKEN STRING RIGHT HERE
+    const token = ''; // lost my token
 
-    // Fetch the live campus notifications using your confirmed active token
     const notificationsResponse = await fetch('http://4.224.186.213/evaluation-service/notifications', {
       method: 'GET',
       headers: {
